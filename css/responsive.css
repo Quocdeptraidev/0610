@@ -1,0 +1,186 @@
+/* Mobile Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Container */
+  .container {
+    padding: 0 10px;
+  }
+
+  /* Balloons */
+  .balloons {
+    width: 70px;
+    height: 128px;
+    background-size: 70px 128px;
+  }
+  
+  .balloons h2 {
+    font-size: 35px;
+    margin-top: 25px;
+  }
+
+  /* Bulbs */
+  .bulb {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+  }
+
+  /* Banner */
+  .bannar {
+    max-width: 95%;
+  }
+
+  /* Cake */
+  .cake {
+    width: 220px;
+    height: 220px;
+    margin-left: -110px;
+  }
+  
+  .cake:after {
+    width: 220px;
+  }
+  
+  .bizcocho {
+    width: 110px;
+    height: 73px;
+    margin-left: -55px;
+  }
+  
+  .cobertura {
+    width: 122px;
+    height: 28px;
+    margin-left: -61px;
+  }
+  
+  .velas {
+    width: 11px;
+    height: 37px;
+    margin-left: -5.5px;
+    margin-top: -18px;
+  }
+
+  /* Profile image */
+  .profile-img {
+    width: 110px;
+    height: 110px;
+    bottom: 25px;
+    right: -120px;
+  }
+
+  /* Album photos */
+  .album-container {
+    position: fixed;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    z-index: 1;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .album-photo {
+    width: 80px !important;
+    height: 60px !important;
+    position: relative !important;
+    display: block !important;
+    margin: 0 !important;
+    transform: none !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    object-fit: cover;
+  }
+
+  /* Messages */
+  .message {
+    width: 95%;
+    top: 75%;
+  }
+  
+  .message p {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+
+  /* Audio */
+  audio {
+    width: 280px;
+    max-width: 85%;
+  }
+
+  /* Control buttons */
+  .navbar-fixed-bottom {
+    padding: 5px 0;
+  }
+  
+  .navbar-fixed-bottom .btn {
+    font-size: 11px;
+    padding: 6px 10px;
+    margin: 2px 1px;
+  }
+  
+  .navbar-fixed-bottom .col-md-6 {
+    padding: 0 5px;
+  }
+
+  /* Hide zoom hint */
+  .can-zoom {
+    display: none !important;
+  }
+}
+
+/* Small mobile */
+@media only screen and (max-width: 480px) {
+  .balloons {
+    width: 60px;
+    height: 110px;
+    background-size: 60px 110px;
+  }
+  
+  .balloons h2 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .cake {
+    width: 180px;
+    height: 180px;
+    margin-left: -90px;
+  }
+  
+  .cake:after {
+    width: 180px;
+  }
+  
+  .bizcocho {
+    width: 90px;
+    height: 60px;
+    margin-left: -45px;
+  }
+
+  .profile-img {
+    width: 90px;
+    height: 90px;
+    right: -100px;
+  }
+
+  .album-photo {
+    width: 70px !important;
+    height: 50px !important;
+  }
+
+  .message p {
+    font-size: 24px;
+  }
+
+  .navbar-fixed-bottom .btn {
+    font-size: 10px;
+    padding: 5px 8px;
+  }
+}
